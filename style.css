@@ -1,0 +1,349 @@
+ *{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+ }
+ h2 {
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ header button {
+  padding: 0.4em;
+  width: 80px;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+ }
+
+ header button:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+ }
+ body {
+  background-color: #010114;
+ }
+ .hero-btn {
+
+  background-color: rebeccapurple;
+  padding: 0.5rem 2rem;
+  border: 1px solid rebeccapurple;
+  border-radius: 20px;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+ }
+.toggle {
+  display: none;
+}
+.hero-banner {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+.w-100 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.about-banner {
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ header {
+  background-color: rgba(255, 255, 255, 0.03);
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+ }
+ header ul {
+  display: flex;
+  flex-direction: row;
+ }
+ header li {
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+ }
+ .logo-span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1em;
+ }
+ .logo-span h1 {
+  padding: 0.5rem;
+  font-size: 20px;
+ }
+
+.hero-title {
+  margin-top: 2em;
+  width: 80%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  margin-left: 1rem;
+  text-align: left;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero-text {
+  margin-left: 1rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+ /*for the 3 dotted lines....START*/
+ .section-icon {
+  width: 18px;
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  cursor: pointer;
+}
+.section-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  border-radius: 5px;
+}
+/*for the 3 dotted lines....END*/
+
+.container-2 {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.trend-tab-1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.trend-tab-1 ul {
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.trend-tab-1 a{
+  padding: 0.27rem;
+  border-radius: 5px;
+}
+
+.trend-tab-1 a:hover{
+  background-color: rebeccapurple;
+ }
+
+ .card-wrapper {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 8px;
+ }
+
+
+.span-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 13px;
+}
+.span-1 p{
+  display: inline;
+}
+
+.badge {
+  background-color: red;
+  padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+  font-size: 12px;
+  border-radius: 5rem;
+}
+
+.card-value {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-4 {
+  padding: 5rem 1rem;
+  text-align: center;
+  background-color:  rgba(255, 255, 255, 0.027);
+}
+.how-it-work {
+ margin-bottom: 4rem;
+}
+.how-it-work h2 {
+  padding-bottom: 1.2rem;
+}
+.grid ul {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+.grid li {
+  width: 20rem
+}
+.container-5 {
+  margin: 1rem;
+  padding-top: 5rem; 
+  padding-bottom: 5rem;
+}
+.about-content {
+  padding: 1rem;
+}
+.section-title {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.about-content p{
+  padding-bottom:  2rem;
+}
+.about-content h3 {
+  font-size: 26px;
+}
+.explore-more {
+  background-color: rebeccapurple;
+  padding: 0.5rem 2rem;
+  border: 1px solid rebeccapurple;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+.title-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 13px; 
+}
+ion-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: rebeccapurple;
+}
+.container-6 {
+  background-color: rgba(255, 255, 255, 0.027);
+  padding: 1.5rem;
+}
+.item-title{
+  font-size: 25px;
+}
+.container-6 .title-wrapper {
+  padding-top: 1rem;
+}
+.email-input {
+  background-color: inherit;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  padding: 1rem;
+  display: block;
+  margin-top: 1rem;
+  
+}
+footer  {
+  padding: 2rem 1rem;
+}
+.subscribe {
+  background-color: rebeccapurple;
+  padding: 0.5rem 2rem;
+  border: 1px solid rebeccapurple;
+  border-radius: 20px;
+  margin-top: 0.8rem;
+  width: 100%;
+}
+.tiny {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0.5rem 0;
+  text-align: center;
+}
+.footer-top{
+  margin: 1rem 0;
+}
+
+.links ul{
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
+}
+.follow {
+  margin: 2.5rem 0;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+table img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+canvas {
+  width: 100px;
+  height: 50px;
+}
+.container-3 {
+  margin: 4rem 2rem;
+  overflow: auto;
+}
+  
+.container-3::-webkit-scrollbar {
+  width: 8px; /* Thin scrollbar */
+  height: 8px
+}
+
+/* Scrollbar track (background) */
+.container-3::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); /* Light grey */
+  border-radius: 10px;
+}
+
+/* Scrollbar thumb (the moving part) */
+.container-3::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2); /* Dark grey */
+  border-radius: 10px;
+}
+
+/* On hover, make the scrollbar darker */
+.container-3::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
