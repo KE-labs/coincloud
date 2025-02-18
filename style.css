@@ -6,6 +6,9 @@
     box-sizing: border-box;
     color: white;
  }
+ p {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
  h2 {
   font-size: 27px;
   font-family: Arial, Helvetica, sans-serif;
@@ -28,11 +31,11 @@
  .hero-btn {
 
   background-color: rebeccapurple;
-  padding: 0.5rem 2rem;
+  padding: 0.8rem 2rem;
   border: 1px solid rebeccapurple;
   border-radius: 20px;
   margin-left: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
  }
 .toggle {
   display: none;
@@ -41,7 +44,7 @@
   width: 300px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .w-100 {
   width: 100%;
@@ -86,12 +89,11 @@
 .hero-title {
   margin-top: 2em;
   width: 80%;
-  padding-top: 2rem;
   padding-bottom: 2rem;
   padding-right: 2rem;
   margin-left: 1rem;
   text-align: left;
-  font-size: 27px;
+  font-size: 35px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .hero-text {
@@ -224,7 +226,7 @@
 }
 .explore-more {
   background-color: rebeccapurple;
-  padding: 0.5rem 2rem;
+  padding: 0.8rem 2rem;
   border: 1px solid rebeccapurple;
   border-radius: 20px;
   margin-top: 2rem;
@@ -234,9 +236,11 @@
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  font-size: 13px; 
+  margin-bottom: 0.5rem;
+  margin-top: 3rem; 
+}
+.move {
+  margin-bottom: 3rem;
 }
 ion-icon {
   width: 1.5rem;
@@ -248,7 +252,8 @@ ion-icon {
   padding: 1.5rem;
 }
 .item-title{
-  font-size: 25px;
+  font-size: 23px;
+  font-weight: bold;
 }
 .container-6 .title-wrapper {
   padding-top: 1rem;
@@ -270,7 +275,7 @@ footer  {
 }
 .subscribe {
   background-color: rebeccapurple;
-  padding: 0.5rem 2rem;
+  padding: 0.8rem 2rem;
   border: 1px solid rebeccapurple;
   border-radius: 20px;
   margin-top: 0.8rem;
@@ -346,4 +351,18 @@ canvas {
 /* On hover, make the scrollbar darker */
 .container-3::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+.card-text {
+  font-size: 13px;
+}
+.card-subtitle {
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+.card-title {
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+.instruction-card {
+  padding-bottom: 1rem;
 }
