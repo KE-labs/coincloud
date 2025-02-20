@@ -37,7 +37,7 @@
   margin-left: 2rem;
   margin-bottom: 3rem;
  }
-.toggle {
+.hide {
   display: none;
 }
 .hero-banner {
@@ -365,4 +365,78 @@ canvas {
 }
 .instruction-card {
   padding-bottom: 1rem;
+}
+
+
+
+.login-container {
+  background: #fff;
+  max-width: 400px;
+  width: 90%;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Login Form Styles */
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container form input[type="email"],
+.login-container form input[type="password"] {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.login-container form input[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.forgot-password a {
+  color: #4CAF50;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.neutral {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }

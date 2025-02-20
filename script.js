@@ -224,4 +224,14 @@ async function fetchCryptoData() {
   // Update data every 10 seconds
   setInterval(fetchCryptoData, 10000);
 
-
+  const login = document.getElementById("login-btn");
+  const loginPage = document.getElementById("login-page");
+  const body = document.getElementById("body");
+  const homepageBody = document.getElementById("homepage-body");
+  const dashboardBody = document.getElementById("dashboard-body")
+  
+  login.addEventListener("click", () => {
+      loginPage.classList.toggle("hide");
+      homepageBody.classList.toggle("hide");
+      body.classList.add("neutral")
+  });
